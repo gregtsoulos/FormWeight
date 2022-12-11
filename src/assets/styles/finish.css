@@ -1,0 +1,163 @@
+.finish-comp {
+    width: 90%;
+    margin: 0 20px
+}
+
+.finish-email {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.finish-email .form-label {
+    width: 20%;
+}
+
+.finish-email-right {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.finish-email-right .form-control {
+    width: 40%;
+}
+
+.finish-email-right button {
+    height: 30px;
+}
+
+/*email preview*/
+
+.preview-box {
+    border: 2px solid #868787;
+    margin: 20px;
+    padding: 20px 50px 40px 40px;
+}
+
+.preview-title {
+    color: #919090;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.biometrics {
+    padding: 10px 0 30px;
+}
+
+.goals {
+    padding: 20px 0;
+}
+
+.info {
+    padding: 30px 0;
+}
+
+.biometrics,
+.goals {
+    border-bottom: 2px solid #010100;
+}
+
+.field-name {
+    color: #141414;
+    font-weight: 600;
+}
+
+.input-val {
+    margin-top: 4px;
+    color: #383938;
+    font-weight: 400;
+}
+
+.flex-field {
+    display: flex;
+}
+
+.left-field,
+.right-field,
+.mid-field {
+    width: 33%;
+}
+
+.left-field-goals,
+.right-field-goals {
+    width: 50%
+}
+
+.info-title {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.yes-no {
+    margin-left: 40px;
+    color: #747475;
+}
+
+.flex-field-info {
+    border-bottom: 2px solid #e6e7e6;
+    padding: 5px 0;
+}
+
+.left-field-info {
+    width: 80%;
+}
+
+.right-field-info {
+    width: 10%;
+}
+
+@media (min-width:0px) and (max-width:850px) {
+
+    .preview-box {
+        margin: 20px 0;
+        padding: 20px 5px 40px;
+    }
+
+    .finish-comp {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .finish-email {
+        display: block;
+    }
+
+    .finish-email-right {
+        width: 100%;
+    }
+
+    .left-field-info {
+        width: 80%;
+    }
+
+    .right-field-info {
+        padding-left: 10px;
+        width: 20%;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media (min-width:0px) and (max-width:650px) {
+    .finish-email {
+        display: block;
+    }
+
+    .finish-email-right {
+        width: 100%;
+        display: block;
+    }
+
+    .finish-email-right .form-control {
+        margin-bottom: 6px;
+        width: 100%;
+    }
+
+    .finish-email-right button {
+        width: 100%;
+    }
+}

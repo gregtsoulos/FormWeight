@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    justify-content: end;
+    height: 40px;
+    border-bottom: 2px solid #d2d2d3;
+    color: #b6b6b6;
+}
+
+@media (min-width:0px) and (max-width:450px){
+    .header{
+        height: fit-content;
+    }
+}

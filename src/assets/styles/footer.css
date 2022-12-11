@@ -1,0 +1,19 @@
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #d2d2d3;
+}
+
+.footer a {
+    color: #8f8f8e;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.custom-btn {
+    padding: 2px 100px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+}

@@ -1,0 +1,27 @@
+.sidebar{
+    width:100%;
+    border-right: 1px solid #181918;
+    height: 400px;
+}
+
+.left_border{
+    border-left: 2px solid #383838;
+}
+
+.sidebar-text, .sidebar-text1{
+    padding-left: 15px;
+    color: #454545;
+}
+
+.sidebar-text1{
+    padding-top: 5px;
+}
+
+.sidebar-text{
+    padding-top: 35px;
+}
+
+.active_text{
+    color: #030202;
+    font-weight: 700;
+}

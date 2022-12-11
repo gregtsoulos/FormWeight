@@ -1,0 +1,85 @@
+.form-select {
+  background-image: url("./assets/images/downarrow.svg");
+  height: 40px;
+}
+
+.form-check-label {
+  margin-top: 2px;
+}
+
+.form-check-input {
+  border-radius: 0px;
+  width: 25px;
+  height: 25px;
+  margin-right: 4px;
+  border-radius: 0px;
+  border: 2px solid grey;
+}
+
+.form-check-input:checked {
+  background-image: url('./assets/images/rectangle.png') !important;
+  background-size: 100% 140%;
+  background-color: white;
+  border: 2px solid grey;
+}
+
+.each-page {
+  display: flex;
+}
+
+.left-comp {
+  width: 13%;
+  margin: 30px 15px;
+}
+
+.right-comp {
+  width: 87%;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.grey-box {
+  width: 80%;
+  background-color: #e6e7e6;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+/*font-size*/
+.fonts-12 {
+  font-size: 12px;
+}
+
+.fonts-14 {
+  font-size: 14px;
+}
+
+/*font-weight*/
+.fontw-500 {
+  font-weight: 500;
+}
+
+@media (min-width:0px) and (max-width:1100px) {
+  .grey-box {
+    width: 100%;
+  }
+}
+
+@media (min-width:0px) and (max-width:900px) {
+  .left-comp {
+    width: 30%;
+  }
+
+  .right-comp {
+    width: 70%;
+  }
+}
+
+@media (min-width:0px) and (max-width:450px) {
+  .header {
+    height: fit-content;
+  }
+}

@@ -1,0 +1,33 @@
+.yes-check{
+    margin-right: 50px;
+}
+
+.each-info-field{
+    margin-bottom: 20px;
+}
+
+.inline-info{
+    display: flex;
+}
+
+.inline-info .form-label{
+   width: 40%;
+}
+
+.inline-info .form-control{
+    width: 30%;
+}
+
+@media (min-width:0px) and (max-width:850px){
+    .inline-info{
+        display: block;
+    }
+    
+    .inline-info .form-label{
+       width: 100%;
+    }
+    
+    .inline-info .form-control{
+        width: 100%;
+    } 
+}
